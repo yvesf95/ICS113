@@ -1,0 +1,120 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background: linear-gradient(#444444, white);
+	background-repeat: no-repeat;
+}
+table{
+	margin: auto;
+}
+.inline{
+	display: inline;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+#title{
+	margin-top: 5px;
+	margin-left: 5%;
+	background-image: url('seal.png'); 
+	background-repeat: no-repeat;
+	background-size: 40px, 40px;
+	padding-left: 40px;
+	font-family: Impact;
+}
+#login{
+	margin-top: 15px;
+	margin-right: 5%;
+	font-family: Calibri;
+}
+#header{
+	display: block;
+	margin: auto;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -8px;
+	height: 50px;
+	background: #ffde00;
+	opacity: 0.9;
+}
+#center{
+	display: block;
+	margin: auto;
+	height: 600px;
+	width: 90%;
+}
+#breadcrumb{
+	display: block;
+	margin: auto;
+	margin-left: -10px;
+	margin-right: -8px;
+	background: #696969;
+}
+.crumbs{
+	list-style: none;
+	overflow: hidden;
+	font: 16px Impact, Arial, Sans-Serif;
+	margin-top: 0px;
+	margin-left: -40px;
+	margin-bottom: 0px;
+}
+.crumbs li{
+	float: left;
+}
+.crumbs li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 0px 5px 50px;
+	background: #494949;
+	position: relative;
+	display: block;
+	float: left;
+}
+.crumbs li a:after{
+	content: " ";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 30px solid #494949;
+	position: absolute;
+	left: 100%;
+	top: -85%;
+}
+td u{
+	font-family: Calibri;
+	font-size: 18px;
+}
+td p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Calibri;
+	font-size: 14px;
+}
+td a{
+	text-decoration: none;
+	font-family: Calibri Light;
+	font-size: 20px;
+	color: black;
+}
+td a div{
+	height: 150px;
+	width: 400px;
+}
+#logo{
+	height: 265px;
+	width: 1020px;
+}
+#contact{
+	padding-top: 10px;
+	padding: 4px;
+	color: white;
+}
+.icon{
+	border: 1px solid white;
+	border-radius: 10px;
+}
