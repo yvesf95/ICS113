@@ -1,0 +1,139 @@
+@CHARSET "ISO-8859-1";
+
+ body{
+	background: #dad7ca;
+	
+}
+table{
+	
+	padding:10px;
+	border-spacing: 12px;
+}
+
+.inline{
+	display: inline;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.label{
+	font-size: 14px;
+	font-family: Helvetica;
+}
+#title{
+	margin-top: 5px;
+	margin-left: 60px;
+	background-image: url('seal.png'); 
+	background-repeat: no-repeat;
+	background-size: 40px, 40px;
+	padding-left: 40px;
+	font-family: Impact;
+}
+#header{
+	margin: auto;
+	margin-top: -10px;
+	padding-right:18px;
+	height: 50px;
+	width: 100%;
+	background: #ffde00;
+	opacity: 0.9;
+}
+#center{
+	display: block;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 1000px;
+	height:670px;
+	background-image:url("year.jpg");
+	border-radius: 10px;
+	padding:15px;
+}
+#degree td{
+	width: 120px;
+	
+}
+
+#left{
+	float:left;
+	display:inline-block;
+	width:500px;
+}
+
+#right{
+	display:inline-block;
+	float:right;
+	width:500px;
+}
+#breadcrumb{
+	display: block;
+	background: #696969;
+	width:100%;
+	padding-right: 16px;
+}
+
+#applicant table tr td{
+	padding:10px;
+	border-spacing: 12px;
+
+	
+}
+
+.crumbs{
+	list-style: none;
+	overflow: hidden;
+	font: 16px Impact, Arial, Sans-Serif;
+	margin-top: 0px;
+	margin-left: -40px;
+	margin-bottom: 0px;
+}
+.crumbs li{
+	float: left;
+}
+.crumbs li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 0px 5px 50px;
+	background: #494949;
+	position: relative;
+	display: block;
+	float: left;
+}
+.crumbs li a:after{
+	content: " ";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 30px solid #494949;
+	position: absolute;
+	left: 100%;
+	top: -85%;
+	z-index: 2;
+}
+.crumbs li a:before{
+	content: " ";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 31px solid white;
+	position: absolute;
+	left: 100%;
+	top: -85%;
+	z-index: 1;
+}
+.crumbs li:nth-child(2) a{
+	background: #555555;
+}
+.crumbs li:nth-child(2) a:after{
+	border-left-color: #595959;
+}
+
+

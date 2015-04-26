@@ -1,0 +1,15 @@
+@media print {
+
+
+display: block;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 1000px;
+	height:670px;
+	background-image:url("year.jpg");
+	border-radius: 10px;
+	padding:15px;
+
+}
