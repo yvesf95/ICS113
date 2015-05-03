@@ -1,0 +1,167 @@
+@CHARSET "ISO-8859-1";
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+body{
+	background: white;
+}	
+table{
+	margin: auto;
+}
+.inline{
+	display: inline;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+#title{
+	margin-top: 20px;
+	margin-left: 60px;
+	background-image: url('seal.png'); 
+	background-repeat: no-repeat;
+	background-size: 45px, 45px;
+	padding-left: 50px;
+	font-family: Impact;
+	font-size: 18px;
+}
+#login{
+	margin-top: 20px;
+	margin-right: 50px;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+#header{
+	margin: auto;
+	margin-top: -10px;
+	padding-right:18px;
+	height: 80px;
+	width: 100%;
+	background: #fec545;
+	opacity: 0.9;
+	z-index: 2;
+}
+#breadcrumb{
+	display: block;
+	background: #696969;
+	width:100%;
+	padding-right: 8px;
+	box-shadow: 0px 0px 50px #696969;
+	z-index: 1;
+}
+.crumbs{
+	list-style: none;
+	overflow: hidden;
+	font: 16px Impact, Arial, Sans-Serif;
+	margin-top: 0px;
+	margin-left: -40px;
+	margin-bottom: 0px;
+}
+.crumbs li{
+	float: left;
+	margin-left: -20px;
+}
+.crumbs li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 0px 5px 60px;
+	background: #494949;
+	position: relative;
+	display: block;
+	float: left;
+}
+.crumbs li a:after{
+	content: " ";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 30px solid #494949;
+	position: absolute;
+	left: 100%;
+	top: -85%;
+}
+#center{
+	display: block;
+	background: #f5f5f5;
+	height: 1400px;
+	width: 1300px;
+	margin: auto;
+	box-shadow: 0px 0px 50px #444444;
+	z-index: 1;
+}
+#logo{
+	width: 1300px;
+	height: 450px;
+}
+#button{
+	width: 250px;
+	font-family: Calibri;
+}
+#button b{
+	font-size: 20px;
+}
+.icon{
+	height: 220px;
+	width: 220px;
+	border: 4px double #000000;
+	border-radius: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	box-shadow: 0 0 25px rgba(0,0,0,0.3); 
+}
+td a img:hover {
+	opacity:0.75;
+	border: 4px solid #ffffff;
+}
+.fadein { 
+	position:relative; 
+	height:285px;
+	margin: auto;
+}
+.fadein img { 
+	position:absolute; 
+	left:0; 
+	top:0; 
+}
+
+#footer{
+	font-family: Helvetica;
+	width:100%;
+	font-size: 9px;
+	height:30px;
+	margin-top:20px;
+	text-align:center;
+}
